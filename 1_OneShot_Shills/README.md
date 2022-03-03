@@ -41,7 +41,7 @@
 <img src="https://user-images.githubusercontent.com/91179422/156635672-d484528f-58f2-44b4-94cb-de5e7baf2655.png" alt="挑選dc"/>
 <img src="https://user-images.githubusercontent.com/91179422/156635346-920f4f61-5b63-44bd-a4d9-232c4fe91ba0.png" alt="貼上文件"/>
 
-## Step4. 更新分享完案
+## Step4. 更新分享文案
 可以自訂義宣傳文案，更改1_shill_content.txt 檔案，一次共享於所有頻道當中。
 **後續需要分享不同內容只需更改此檔案即可!**
 範例如下:
