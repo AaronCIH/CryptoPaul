@@ -36,7 +36,7 @@
 1. 瀏覽器登入預使用Discord，並進入任何一個shill頻道，請認真挑選看每個頻道的規定!
 2. 複製網址連結，每個網址最後面一串就是牠們的動態PID。
 3. 貼至 2_shill_chs.csv檔案中的**Url**位置，注意此時貼上要從function貼上才不會被轉換格式，可以看到貼上後格子內顯示應該沒有縮寫!
-4. 可以記錄一下 DC名稱，Channel名稱，方便未來動態Pid連結失效時可以方便檢查。
+4. 可以記錄一下 DC名稱，Channel名稱，方便未來動態Pid連結失效時可以方便檢查，注意不能使用中文!
 ```
 <img src="https://user-images.githubusercontent.com/91179422/156635672-d484528f-58f2-44b4-94cb-de5e7baf2655.png" alt="挑選dc"/>
 <img src="https://user-images.githubusercontent.com/91179422/156635346-920f4f61-5b63-44bd-a4d9-232c4fe91ba0.png" alt="貼上文件"/>
