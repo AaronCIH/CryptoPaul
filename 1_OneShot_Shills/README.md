@@ -49,5 +49,4 @@
 
 ## Step5. 使用Python 環境開始執行
 詳細執行流程與環境安裝請看以下教學步驟:
-[Python環境安裝與執行教學]https://github.com/Cihsaing/CryptoPaul/blob/main/0_Python%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/README.md
-
+[Python環境安裝與執行教學](https://github.com/Cihsaing/CryptoPaul/blob/main/0_Python%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/)
