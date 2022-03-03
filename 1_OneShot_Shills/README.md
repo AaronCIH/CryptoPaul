@@ -5,13 +5,13 @@
 注意: 每個頻道分享限制不同，有些有符號限制、時間限制，為了大量分享統一規格化1~2小時自動分享一次，因此有些時候可能頻道內尚未冷卻就不會顯示分享資訊呦!
 注意: 有些字符在網頁和程式上不支援就會自動被屏蔽而一直失敗喔!
 
-## 使用介紹:
-### Step1. 下載檔案
+# 使用介紹:
+## Step1. 下載檔案
 若是熟悉git的朋友可自行下載，初次使用的朋友可以跳回[首頁](https://github.com/Cihsaing/CryptoPaul)，點選右上角的"Code"(綠色按鈕) -> Download Zip.
 下載完成後，至下載資料夾為至解壓縮應該會看見所有項目。  
 <img src="https://user-images.githubusercontent.com/91179422/156627722-3a7414d3-4642-4e62-b43c-0d1986cc4884.png" width="100" alt="下載"/>
 
-### Step2. DC Authorization 設定
+## Step2. DC Authorization 設定
 此時為了讓程式可以幫你進行操作，需要獲得您的帳號權限，其中需要注意!
 !!! 每個DC授權碼代表著你的帳號，可進行任何操作，請妥善保管 !!!
 !!! 每個DC授權碼代表著你的帳號，可進行任何操作，請妥善保管 !!!
@@ -28,7 +28,7 @@
 **注意每一行只能貼一個帳號的authorization code，且結尾不可以有空格與換行!** 
 <img src="https://user-images.githubusercontent.com/91179422/156632572-fb96375e-0f88-413d-a5e1-7093817abc4a.png" alt="auth教學"/>
 
-### Step3. 分享channels 設定
+## Step3. 分享channels 設定
 這邊需要手動整理要分享至哪些頻道，此步驟需要耗費較長時間，但一勞永逸。
 而由於每個頻道都會有自己的動態PID，因此複製網址即可，我已透過程式讀取。
 * 步驟:
@@ -41,7 +41,7 @@
 <img src="https://user-images.githubusercontent.com/91179422/156635672-d484528f-58f2-44b4-94cb-de5e7baf2655.png" alt="挑選dc"/>
 <img src="https://user-images.githubusercontent.com/91179422/156635346-920f4f61-5b63-44bd-a4d9-232c4fe91ba0.png" alt="貼上文件"/>
 
-### Step4. 更新分享完案
+## Step4. 更新分享完案
 可以自訂義宣傳文案，更改1_shill_content.txt 檔案，一次共享於所有頻道當中。
 **後續需要分享不同內容只需更改此檔案即可!**
 範例如下:
