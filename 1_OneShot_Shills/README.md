@@ -22,7 +22,11 @@
 5. 找到 **Messages** -> **標頭(Header)** -> 找到**authorization**
 6. 選取自己的authorization code，貼至 **0_authorizations.txt** 檔案內即可。
 **注意每一行只能貼一個帳號的authorization code，且結尾不可以有空格與換行!** 
+<img src="https://user-images.githubusercontent.com/91179422/156632572-fb96375e-0f88-413d-a5e1-7093817abc4a.png" alt="auth教學"/>
+
 <img src="https://user-images.githubusercontent.com/91179422/156629857-a3914484-2798-4cef-8b2f-e19fce30efc7.png" width="200" alt="開發人員工具"/>
 <img src="https://user-images.githubusercontent.com/91179422/156630448-3eaaff41-6442-4453-83d7-1a601a24ddd3.png" width="200" alt="FetchXHR"/>
 <img src="https://user-images.githubusercontent.com/91179422/156631419-3de0ca1a-9431-4d05-bc0d-5e715f9d47b1.png" width="200" alt="Message"/>
 <img src="https://user-images.githubusercontent.com/91179422/156632095-3bbf960e-61a0-44e5-bb8b-c7b7aeb0918c.png" width="200" alt="auth"/>
+
+![image](https://user-images.githubusercontent.com/91179422/156632572-fb96375e-0f88-413d-a5e1-7093817abc4a.png)
