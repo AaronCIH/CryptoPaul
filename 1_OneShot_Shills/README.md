@@ -13,20 +13,13 @@
 !!! 每個DC授權碼代表著你的帳號，可進行任何操作，請妥善保管 !!!
 !!! 每個DC授權碼代表著你的帳號，可進行任何操作，請妥善保管 !!!
 * 步驟:
-  
-
+```
 1. 瀏覽器登入預使用Discord，並進入任何一個Channels
 2. 瀏覽器(Chrome, Edge..) 點選右上角 (三點處) -> 更多工具 -> 開發人員工具
 3. 選擇 **網路(Network)** -> **Fetch/XHR**
 4. 接著重新整理網頁，可以看到有許多條例跑出來
 5. 找到 **Messages** -> **標頭(Header)** -> 找到**authorization**
 6. 選取自己的authorization code，貼至 **0_authorizations.txt** 檔案內即可。
+```
 **注意每一行只能貼一個帳號的authorization code，且結尾不可以有空格與換行!** 
 <img src="https://user-images.githubusercontent.com/91179422/156632572-fb96375e-0f88-413d-a5e1-7093817abc4a.png" alt="auth教學"/>
-
-<img src="https://user-images.githubusercontent.com/91179422/156629857-a3914484-2798-4cef-8b2f-e19fce30efc7.png" width="200" alt="開發人員工具"/>
-<img src="https://user-images.githubusercontent.com/91179422/156630448-3eaaff41-6442-4453-83d7-1a601a24ddd3.png" width="200" alt="FetchXHR"/>
-<img src="https://user-images.githubusercontent.com/91179422/156631419-3de0ca1a-9431-4d05-bc0d-5e715f9d47b1.png" width="200" alt="Message"/>
-<img src="https://user-images.githubusercontent.com/91179422/156632095-3bbf960e-61a0-44e5-bb8b-c7b7aeb0918c.png" width="200" alt="auth"/>
-
-![image](https://user-images.githubusercontent.com/91179422/156632572-fb96375e-0f88-413d-a5e1-7093817abc4a.png)
