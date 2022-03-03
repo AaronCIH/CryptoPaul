@@ -47,4 +47,7 @@
 範例如下:
 <img src="https://user-images.githubusercontent.com/91179422/156637104-251b6ea6-7737-42a6-afa3-6d27dd5c1b78.png" alt="貼上文件"/>
 
+## Step5. 使用Python 環境開始執行
+詳細執行流程與環境安裝請看以下教學步驟:
+[Python環境安裝與執行教學]https://github.com/Cihsaing/CryptoPaul/blob/main/0_Python%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/README.md
 
