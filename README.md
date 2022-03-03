@@ -15,4 +15,6 @@
 
 ## 項目介紹:
 目前預計提供幾項DC工具，方便大家在五花八門的資訊當中可以找到重要的資訊，並且有效的達成目的。
-* 項目1. 一鍵Shills工具: [一鍵Shill工具](https://github.com/Cihsaing/CryptoPaul/tree/main/0_DC_shills)
+* 項目1. 一鍵Shills工具: [一鍵Shill工具](https://github.com/Cihsaing/CryptoPaul/tree/main/0_DC_shills)，幫助大家一次分享宣傳文案至多個頻道，快速達成邀請人數條件。
+* 項目2. 自動抽獎工具: 整理中....
+* 項目3. 重要訊息Line通知機器人: 撰寫中....
