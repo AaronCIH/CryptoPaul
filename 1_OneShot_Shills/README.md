@@ -49,4 +49,6 @@
 
 ## Step5. 使用Python 環境開始執行
 詳細執行流程與環境安裝請看以下教學步驟:
-[Python環境安裝與執行教學](https://github.com/Cihsaing/CryptoPaul/blob/main/0_Python%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/)
+[Python環境安裝與執行教學](https://github.com/Cihsaing/CryptoPaul/blob/main/0_Python%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/)  
+** !!! 注意此版本目前設定為間格1~2小時自動發放所有頻道，有些較不活絡的頻道可能被占滿或者有MOD再監測，因此也推薦大家可以執行後直接中斷，手動控制分享時間 !!! **
+** BTW. 現在觀察晚上7.到晚上11.宣傳效果最佳。
