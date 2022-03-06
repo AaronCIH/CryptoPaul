@@ -24,6 +24,5 @@ Jupyter Notebook 是什麼：一個可提供網頁形式編寫 python 程式，�
 ## Step 4. 選擇檔案 & 執行  
 a. 找到目標資料夾  
 b. 進入後 -> 開啟執行檔案 "run_me.ipynb"  -> 按下run 就好
-![image](https://user-images.githubusercontent.com/91179422/156640599-eb474567-c793-4dae-a7c4-50622d2d2d24.png)
-![image](https://user-images.githubusercontent.com/91179422/156640619-14fb15fa-1fe2-4cf6-8458-08c1f486b843.png)
 ![image](https://user-images.githubusercontent.com/91179422/156917933-5fe96af4-e1be-41a3-ad5c-5bf565c4bbfa.png)
+![image](https://user-images.githubusercontent.com/91179422/156640619-14fb15fa-1fe2-4cf6-8458-08c1f486b843.png)
