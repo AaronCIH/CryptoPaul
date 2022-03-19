@@ -48,7 +48,7 @@
 <img src="https://user-images.githubusercontent.com/91179422/159115708-c4bd23e3-edfd-4061-a214-8cc7d16ba5cc.png" alt="挑選頻道"/>
 
 * 紀錄抽獎關鍵字!!
-<img src="https://user-images.githubusercontent.com/91179422/159115732-0a309c23-9932-412a-8d56-b238701759a9.png" alt="開啟開發者"/>
+<img src="https://user-images.githubusercontent.com/91179422/159115795-11bc72f6-3a64-46d8-8fee-9c00ba03d070.png" alt="開啟開發者"/>
 <img src="https://user-images.githubusercontent.com/91179422/159115745-ca7885bd-de53-4d21-ab43-955f089e7006.png" alt="尋找關鍵字"/>
 <img src="https://user-images.githubusercontent.com/91179422/159115384-d45049d1-ac01-4bdc-80af-c2dae94e8e8a.png" alt="記錄關鍵字"/>
 
