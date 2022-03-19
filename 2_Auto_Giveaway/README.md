@@ -29,29 +29,33 @@
 <img src="https://user-images.githubusercontent.com/91179422/156632572-fb96375e-0f88-413d-a5e1-7093817abc4a.png" alt="auth教學"/>
 
 ## Step3. 分享channels 設定
-這邊需要手動整理要分享至哪些頻道，此步驟需要耗費較長時間，但一勞永逸。
+這邊需要手動整理抽獎頻道和記錄他們的觀察機器人，此步驟需要耗費較長時間，但一勞永逸。
 而由於每個頻道都會有自己的動態PID，因此複製網址即可，我已透過程式讀取。
 * 步驟:
 ```
-1. 瀏覽器登入預使用Discord，並進入任何一個shill頻道，請認真挑選看每個頻道的規定!
+1. 瀏覽器登入預使用Discord，並進入任何一個giveaway頻道!
 2. 複製網址連結，每個網址最後面一串就是牠們的動態PID。
-3. 貼至 2_shill_chs.csv檔案中的**Url**位置，注意此時貼上要從function貼上才不會被轉換格式，可以看到貼上後格子內顯示應該沒有縮寫!
-4. 可以記錄一下 DC名稱，Channel名稱，方便未來動態Pid連結失效時可以方便檢查，注意不能使用中文!
+3. 貼至"2_giveaway_chs.csv"檔案中的**Url**位置，注意此時貼上要從function貼上才不會被轉換格式，可以看到貼上後格子內顯示應該沒有縮寫!，可看
+4. 建議記錄一下 DC名稱，Channel名稱，方便記錄抽獎紀錄，未來動態Pid連結失效時也方便檢查，注意不能使用中文!
+5. 接著開始記錄抽獎關鍵字，此步驟每個頻道都不同稍顯複雜，整體流程跟紀錄帳號權限很像，後面熟悉時也可以不用每個都點開
+6. 瀏覽器(Chrome, Edge..) 點選右上角 (三點處) -> 更多工具 -> 開發人員工具
+7. 選擇 **網路(Network)** -> **Fetch/XHR** ，接著重新整理網頁，可以看到有許多條例跑出來，可看[圖1]
+8. 接著可以對應頻道內容找到他們機器人的類型，對應的訊息指標是指倒數第幾筆，可將其展開，可看[圖2]
+9. 優先尋找content作為條件，若無的話也可以觀察username適合種機器人，我已新增機器人包含["Giveaway Boat", "GiveawayBoat", "TylerTakesATrip", "Lawliet"]，遇到這些機器人content可以填none.
+10. 將其內容記錄至"2_giveaway_chs.csv":Keyword位置，此時要注意輸入須為MarkDown語法，詳細可以看[圖3]
 ```
-<img src="https://user-images.githubusercontent.com/91179422/156635672-d484528f-58f2-44b4-94cb-de5e7baf2655.png" alt="挑選dc"/>
-<img src="https://user-images.githubusercontent.com/91179422/156635346-920f4f61-5b63-44bd-a4d9-232c4fe91ba0.png" alt="貼上文件"/>
-
-## Step4. 更新分享文案
-可以自訂義宣傳文案，更改1_shill_content.txt 檔案，一次共享於所有頻道當中。
-**後續需要分享不同內容只需更改此檔案即可!**
-範例如下:
-<img src="https://user-images.githubusercontent.com/91179422/156637104-251b6ea6-7737-42a6-afa3-6d27dd5c1b78.png" alt="貼上文件"/>
+* 挑選頻道!!
+<img src="https://user-images.githubusercontent.com/91179422/159114485-7d4c29a8-3a22-412b-b5f5-fab5a8b059df.png" alt="挑選頻道"/>
+* 紀錄抽獎關鍵字!!
+<img src="https://user-images.githubusercontent.com/91179422/159115375-4475622c-379c-4399-b45f-995fa7a2b75a.png" alt="開啟開發者"/>
+<img src="https://user-images.githubusercontent.com/91179422/159115379-aa06e230-7fa9-4e6d-872d-43e537cec369.png" alt="尋找關鍵字"/>
+<img src="https://user-images.githubusercontent.com/91179422/159115384-d45049d1-ac01-4bdc-80af-c2dae94e8e8a.png" alt="記錄關鍵字"/>
 
 ## Step5. 使用Python 環境開始執行
 詳細執行流程與環境安裝請看以下教學步驟:
 [Python環境安裝與執行教學](https://github.com/Cihsaing/CryptoPaul/blob/main/0_Python%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/)  
 
-**!!! 注意此版本目前設定為間格1~2小時自動發放所有頻道，有些較不活絡的頻道可能被占滿或者有MOD在監測將被禁言，因此也推薦大家可以執行後直接中斷，手動控制分享時間 !!!**  
+**!!! 此版本尚未加入中獎通知，遇到一些技術障礙中，但提供了Participate_log方便大家觀察抽獎紀錄，可以每天上去手動檢查是否中獎即可 !!!**  
 *BTW. 現在觀察晚上7.到晚上11.宣傳效果最佳。
 執行後應該會顯示出資訊! 就代表成功囉 可以去頻道檢查是否有成功!
 ![image](https://user-images.githubusercontent.com/91179422/156918023-8adf71a4-c2f0-45b9-bea5-a1cade9c615e.png)
