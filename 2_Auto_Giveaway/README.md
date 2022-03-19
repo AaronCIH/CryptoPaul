@@ -57,8 +57,9 @@
 [Python環境安裝與執行教學](https://github.com/Cihsaing/CryptoPaul/blob/main/0_Python%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8/)  
 
 **!!! 此版本尚未加入中獎通知，遇到一些技術障礙中，但提供了Participate_log方便大家觀察抽獎紀錄，可以每天上去手動檢查是否中獎即可 !!!**  
-*BTW. 現在觀察晚上7.到晚上11.宣傳效果最佳。
-執行後應該會顯示出資訊! 就代表成功囉 可以去頻道檢查是否有成功!
-![image](https://user-images.githubusercontent.com/91179422/156918023-8adf71a4-c2f0-45b9-bea5-a1cade9c615e.png)
+執行後可以檢查其有效性，
+"2_giveaway_chs.csv":'Vaild'可以觀察連結是否有效，'Touch'可以看看是否曾經成功參與抽獎過(若你發現網頁上有看到新抽獎，但Touch都尚未觸發過，可能就是keyword有問題!!)
 
+* 成功執行後會顯示很多資訊，包含爬蟲到的頻道內容，以及是否曾經參與過抽獎等等。
+![image](https://user-images.githubusercontent.com/91179422/159116169-04870027-ef55-4c09-bbb8-e6c136bdc8bc.png)
 
