@@ -45,10 +45,11 @@
 10. 將其內容記錄至"2_giveaway_chs.csv":Keyword位置，此時要注意輸入須為MarkDown語法，詳細可以看[圖3]
 ```
 * 挑選頻道!!
-<img src="https://user-images.githubusercontent.com/91179422/159114485-7d4c29a8-3a22-412b-b5f5-fab5a8b059df.png" alt="挑選頻道"/>
+<img src="https://user-images.githubusercontent.com/91179422/159115708-c4bd23e3-edfd-4061-a214-8cc7d16ba5cc.png" alt="挑選頻道"/>
+
 * 紀錄抽獎關鍵字!!
-<img src="https://user-images.githubusercontent.com/91179422/159115375-4475622c-379c-4399-b45f-995fa7a2b75a.png" alt="開啟開發者"/>
-<img src="https://user-images.githubusercontent.com/91179422/159115379-aa06e230-7fa9-4e6d-872d-43e537cec369.png" alt="尋找關鍵字"/>
+<img src="https://user-images.githubusercontent.com/91179422/159115732-0a309c23-9932-412a-8d56-b238701759a9.png" alt="開啟開發者"/>
+<img src="https://user-images.githubusercontent.com/91179422/159115745-ca7885bd-de53-4d21-ab43-955f089e7006.png" alt="尋找關鍵字"/>
 <img src="https://user-images.githubusercontent.com/91179422/159115384-d45049d1-ac01-4bdc-80af-c2dae94e8e8a.png" alt="記錄關鍵字"/>
 
 ## Step5. 使用Python 環境開始執行
